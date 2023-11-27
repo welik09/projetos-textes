@@ -1,0 +1,48 @@
+
+ul {
+    list-style-type: none;     /* remove as barras */
+    margin: 0;                 /* definir margin 0 padding 0 remove configuracoes do navegador*/
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(25, 51, 51);
+    
+}
+
+/* display: inline; por padrao os elementos sao de blocos ,aqui removemos a quebra de linha */
+/* antes e depois de cada lista , para exebilo em uma lista */
+
+li {
+    float: left; /* use para fazer que os elementos flutuem um ao lado do outro */
+    
+}
+
+li a {
+    display: block;      /* permite nos especificar o preenchimento,(e altura, largura, margens, etc. se desejar)*/
+    padding: 8px;        /*especifica um preenchimente entre cada elemento */       
+    color: white;      /*background-color: rgb(185, 155, 155); adiciona uma cor de fundo */
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;                   
+}
+
+li a:hover{
+    background-color: rgb(64, 99, 99);
+
+}
+
+/* adicionar uma classe para saber em qualink estou(pagina)  */
+.logo {
+    background-color: rgb(12, 117, 117);
+}
+
+/* pate superior fixa */ /* fixo fundo position:fixed,bottom:0,width:100% */
+ul{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*fim da primeira parte */
+/*começo da segunda parte */
+
+
